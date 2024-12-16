@@ -41,7 +41,9 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v7.2.2.1, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.8.7, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ast (v2.4.2, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="authentication-zero (v4.0.3, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="base64 (v0.2.0, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.20, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="benchmark (v0.4.0, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bigdecimal (v3.1.8, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
@@ -50,6 +52,7 @@
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.3.0, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.23, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capybara (v3.40.0, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="childprocess (v5.1.0, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.3.4, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="connection_pool (v2.4.1, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
@@ -68,6 +71,8 @@
     <orderEntry type="library" scope="PROVIDED" name="jsbundling-rails (v1.3.1, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v2.9.0, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="language_server-protocol (v3.17.0.3, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="launchy (v3.0.1, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="letter_opener (v1.10.0, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="logger (v1.6.3, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.23.1, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.8.1, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
@@ -89,6 +94,7 @@
     <orderEntry type="library" scope="PROVIDED" name="psych (v5.2.1, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v6.0.1, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v6.5.0, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pundit (v2.4.0, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.8.1, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v3.1.8, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-session (v2.0.0, RVM: ruby-3.3.5 [luxury]) [gem]" level="application" />
@@ -143,6 +149,7 @@
         <option value="active_record:application_record" />
         <option value="active_record:multi_db" />
         <option value="application_record" />
+        <option value="authentication" />
         <option value="benchmark" />
         <option value="channel" />
         <option value="controller" />
@@ -155,7 +162,10 @@
         <option value="mailer" />
         <option value="migration" />
         <option value="model" />
+        <option value="pundit:install" />
+        <option value="pundit:policy" />
         <option value="resource" />
+        <option value="rspec:policy" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
         <option value="stimulus" />
@@ -166,6 +176,7 @@
         <option value="test_unit:install" />
         <option value="test_unit:mailbox" />
         <option value="test_unit:plugin" />
+        <option value="test_unit:policy" />
       </list>
     </option>
     <option name="myGenerators">
@@ -173,6 +184,7 @@
         <option value="active_record:application_record" />
         <option value="active_record:multi_db" />
         <option value="application_record" />
+        <option value="authentication" />
         <option value="benchmark" />
         <option value="channel" />
         <option value="controller" />
@@ -185,7 +197,10 @@
         <option value="mailer" />
         <option value="migration" />
         <option value="model" />
+        <option value="pundit:install" />
+        <option value="pundit:policy" />
         <option value="resource" />
+        <option value="rspec:policy" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
         <option value="stimulus" />
@@ -196,6 +211,7 @@
         <option value="test_unit:install" />
         <option value="test_unit:mailbox" />
         <option value="test_unit:plugin" />
+        <option value="test_unit:policy" />
       </list>
     </option>
   </component>
@@ -561,6 +577,7 @@
                   <RakeTaskImpl description="" fullCommand="tmp:cache:clear" id="clear" />
                 </subtasks>
               </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="tmp:letter_opener" id="letter_opener" />
               <RakeTaskImpl id="pids">
                 <subtasks>
                   <RakeTaskImpl description="" fullCommand="tmp:pids:clear" id="clear" />
