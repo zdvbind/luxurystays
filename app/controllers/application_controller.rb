@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+  include Pundit::Authorization
   # Only allow modern browsers supporting webp images, web push, badges, import maps, CSS nesting, and CSS :has.
   allow_browser versions: :modern
 
@@ -19,5 +20,9 @@ class ApplicationController < ActionController::Base
     def set_current_request_details
       Current.user_agent = request.user_agent
       Current.ip_address = request.ip
+    end
+
+    def pundit_user
+      Current.user
     end
 end
