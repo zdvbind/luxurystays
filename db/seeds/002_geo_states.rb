@@ -2,7 +2,7 @@
 puts "Started Seeding Geo States..."
 
 geo_states = [
-  { title: "New South Wales", key: "nsw_au", code: "NSW" },
+  { title: "New South Wales", key: "nsw_au", code: "NSW" }
 ]
 
 # roles.each do |role|
