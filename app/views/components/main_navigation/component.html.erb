@@ -1,0 +1,29 @@
+<aside
+  class="
+    group/mainnav
+    border-r
+    flex-col
+    h-screen
+    hidden
+    items-start
+    sm:flex
+    p-4
+    w-48
+    z-50
+  "
+  id="main-navigation"
+>
+  <%= image_tag 'apple_available.svg', class: 'w-40'%>
+  <div
+    class="
+      flex
+      flex-col
+      gap-1
+      mt-1
+    "
+  >
+    <%= component('MainNavigation/Link', title: "Listings", path: v1_dashboard_listings_path) %>
+    <%= component('MainNavigation/Link', title: "Places", path: root_path) %>
+  </div>
+
+</aside>
